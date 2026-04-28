@@ -31,10 +31,12 @@ Skills are reusable capabilities that provide specialized functionality for code
 
 ### Quick Overview
 
-| Skill                          | Description                                                                                                | Purpose                                                          |
-| ------------------------------ | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| 🔬 **Code Review and Quality** | Multi-axis code review across 5 dimensions (correctness, readability, architecture, security, performance) | Ensure every change maintains or improves overall code health    |
-| 💡 **Explain Code**            | Visual diagrams, analogies & step-by-step walkthroughs                                                     | Make code comprehensible through multiple explanation approaches |
+| Skill                               | Description                                                                                                | Purpose                                                          |
+| ----------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| 🔬 **Code Review and Quality**      | Multi-axis code review across 5 dimensions (correctness, readability, architecture, security, performance) | Ensure every change maintains or improves overall code health    |
+| 🧹 **Code Simplification**          | Simplifies code by reducing complexity while preserving exact behavior                                     | Make code easier to read, understand, modify, and debug          |
+| 🐛 **Debugging and Error Recovery** | Guides systematic root-cause debugging through structured triage and error analysis                        | Find and fix root causes reliably instead of guessing            |
+| 💡 **Explain Code**                 | Visual diagrams, analogies & step-by-step walkthroughs                                                     | Make code comprehensible through multiple explanation approaches |
 
 ---
 
