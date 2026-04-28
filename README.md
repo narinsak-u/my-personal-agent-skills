@@ -95,16 +95,18 @@ Skills are reusable capabilities that provide specialized functionality for code
 
 ### Quick Command Reference
 
-| Task            | Command/Action                                                            |
-| --------------- | ------------------------------------------------------------------------- |
-| Review code     | Select Code Reviewer → paste code                                         |
-| Debug error     | Select Debugger → paste error                                             |
-| Add comments    | Select Code Commenter → paste file                                        |
-| Refactor        | Select Refactorer → describe duplication                                  |
-| Document        | Select Documentation Writer → describe what to document                   |
-| Summarize       | Select Task Recap → describe period                                       |
-| Understand code | Ask "how does this work?" (auto-triggers Explain Code)                    |
-| Quality check   | Request "comprehensive code review" (auto-triggers Code Review & Quality) |
+| Task             | Command/Action                                                            |
+| ---------------- | ------------------------------------------------------------------------- |
+| Review code      | Select Code Reviewer → paste code                                         |
+| Debug error      | Select Debugger → paste error                                             |
+| Add comments     | Select Code Commenter → paste file                                        |
+| Refactor         | Select Refactorer → describe duplication                                  |
+| Document         | Select Documentation Writer → describe what to document                   |
+| Summarize        | Select Task Recap → describe period                                       |
+| Simplify code    | Request "simplify this code" (auto-triggers Code Simplification)          |
+| Understand code  | Ask "how does this work?" (auto-triggers Explain Code)                    |
+| Quality check    | Request "comprehensive code review" (auto-triggers Code Review & Quality) |
+| Debug root cause | Share error/failure (auto-triggers Debugging and Error Recovery)          |
 
 ---
 
@@ -122,6 +124,10 @@ my-personal-agent-skills/
 ├── skills/                          # Reusable capabilities
 │   ├── code-review-and-quality/    # Multi-dimensional code review
 │   │   └── SKILL.md
+│   ├── code-simplification/        # Code simplification for clarity
+│   │   └── SKILL.md
+│   ├── debugging-and-error-recovery/ # Systematic debugging & triage
+│   │   └── SKILL.md
 │   └── explain-code/               # Code explanation with diagrams
 │       └── SKILL.md
 └── README.md                        # This file
@@ -131,16 +137,18 @@ my-personal-agent-skills/
 
 ## Quick Reference
 
-| Need                       | Agent/Skill                 | Command                       |
-| -------------------------- | --------------------------- | ----------------------------- |
-| Review code before merge   | Code Reviewer               | Select agent, paste code      |
-| Fix a bug                  | Debugger                    | Share error stack trace       |
-| Add documentation comments | Code Commenter              | Select agent, paste file      |
-| Refactor duplicated code   | Refactorer                  | Share duplicate sections      |
-| Write architecture docs    | Documentation Writer        | Describe what to document     |
-| Understand complex code    | Explain Code skill          | Ask "how does this work?"     |
-| Summarize progress         | Task Recap                  | Select agent, describe period |
-| Deep code quality review   | Code Review & Quality skill | Request comprehensive review  |
+| Need                       | Agent/Skill                        | Command                       |
+| -------------------------- | ---------------------------------- | ----------------------------- |
+| Review code before merge   | Code Reviewer                      | Select agent, paste code      |
+| Fix a bug                  | Debugger                           | Share error stack trace       |
+| Add documentation comments | Code Commenter                     | Select agent, paste file      |
+| Refactor duplicated code   | Refactorer                         | Share duplicate sections      |
+| Write architecture docs    | Documentation Writer               | Describe what to document     |
+| Simplify complex code      | Code Simplification skill          | Request "simplify this code"  |
+| Understand complex code    | Explain Code skill                 | Ask "how does this work?"     |
+| Summarize progress         | Task Recap                         | Select agent, describe period |
+| Deep code quality review   | Code Review & Quality skill        | Request comprehensive review  |
+| Find root cause of errors  | Debugging and Error Recovery skill | Share error details/logs      |
 
 ---
 
